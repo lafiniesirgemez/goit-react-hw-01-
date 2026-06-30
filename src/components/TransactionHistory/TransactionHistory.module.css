@@ -1,0 +1,26 @@
+.table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.table th,
+table td {
+    padding: 12px 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+}
+
+.table td {
+    text-transform: capitalize;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
