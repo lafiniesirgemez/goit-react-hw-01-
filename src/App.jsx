@@ -5,17 +5,17 @@ import user from "./components/userData.json";
 import friends from "./components/friends.json";
 import transactions from "./components/transaction.json";
 
-export const App = () => {
+const App = () => {
   return (
     <>
       <div className="profile-container">
         <Profile
-          name={UserData.username}
-          tag={UserData.tag}
-          location={UserData.location}
-          image={UserData.avatar}
-          stats={UserData.stats}
-        ></Profile>
+          name={user.username}
+          tag={user.tag}
+          location={user.location}
+          image={user.avatar}
+          stats={user.stats}
+        />
       </div>
 
       <div>
@@ -28,3 +28,5 @@ export const App = () => {
     </>
   );
 };
+
+export default App;
